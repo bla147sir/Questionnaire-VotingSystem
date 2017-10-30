@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color:#F3F7E8;
+	margin:0px;
+	font-family:·s²Ó©úÅé;
+	font-size:13px;
+	/*background-image:url(../image/line.gif);*/
+}
+.container_ncue {
+	background-color: #FFFFFF;
+	width: 1000px;
+	height: 100%;
+	margin:0 auto;
+	border-radius: 1em 1em 1em 1em;
+}
+#banner {
+	background-image: url(../image/vote_banner.jpg);
+	width: 970px;
+	height: 142px;
+	margin:3px auto;
+}
+
+#footer {	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #414141;
+	font-weight:normal;
+	vertical-align:middle;
+	color:#646464;
+	text-align:left;	
+	margin:0px;
+	padding:0px;
+}
+
+
+/* define bootstrap 5 columns */
+/*cut div into 5 equal pieces*/
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+ 
+.col-xs-1-5 {
+	width: 20%;
+	float: left;
+}
+ 
+@media (min-width: 768px) {
+	.col-sm-1-5 {
+		width: 20%;
+		float: left;
+}
+}
+@media (min-width: 992px) {
+	.col-md-1-5 {
+		width: 20%;
+		float: left;
+	}
+}
+@media (min-width: 1200px) {
+	.col-lg-1-5 {
+		width: 20%;
+		float: left;
+	}
+}
+/* define bootstrap 5 columns  end  */
+
+.story {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;	
+	color: black;
+	font-weight:normal;
+	vertical-align:middle;
+	line-height: 10pt;
+}
+.story2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 18pt;
+	color: black;
+}
+.story3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;	
+	color: #414141;
+	font-weight:normal;
+	vertical-align:middle;
+}
+.story4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;	
+	color: #414141;
+	font-weight:normal;
+	vertical-align:middle;
+}
+.bg {
+	background-color:#E0FFFF;
+	vertical-align:middle;
+}
+hr {
+	border:0; 
+	height:2px; 
+	width:95%;
+	background-color:#d4d4d4;
+	color:#d4d4d4	/* IE6 */
+}
+
+.frame
+{
+	height:380px;
+}
+
+ /* Bootstrap modal-vertical-centered */
+.modal-vertical-centered {
+  transform: translate(0, 50%) !important;
+  -ms-transform: translate(0, 50%) !important; /* IE 9 */
+  -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}

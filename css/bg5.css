@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+#dd {
+	margin: 0;
+	padding: 0;
+	background: #000 url(../image/white4.png) center center fixed no-repeat;
+	-moz-background-size: cover;
+	background-size: cover;
+	border:  medium double #9CF;
+}
+
+
+#a1{
+	color: #990000;
+	font-weight: bolder;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+}

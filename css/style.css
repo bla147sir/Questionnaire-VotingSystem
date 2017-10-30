@@ -1,0 +1,90 @@
+body {
+	padding:0;
+	margin:0;
+	
+}
+body, td, input, textarea {
+    font-size: 11px;
+    font-family: 微軟正黑體, 新細明體,Tahoma, Arial Unicode MS;
+    color: #333333;
+    line-height: 14px;
+    vertical-align: top;
+    padding: 0px;
+}
+
+#input1{
+   background:#FFFFFF;
+   border:1px solid #B2C1C4;
+   padding-left:8px;
+   width:138px; height:21px;
+   color:#748184;
+   margin-right:9px;
+   vertical-align:middle;
+   padding-top:2px;
+   font-size:10px
+}
+#input2{
+   border:0px;
+   padding-left:0px;
+   width:26px; height:21px;
+   vertical-align:middle
+}
+#input3{
+   border:0px;
+   padding-left:0px;
+   width:41px; height:21px;
+}#input4{
+   border:0px;
+   padding-left:0px;
+   width:41px; height:21px;
+}
+
+br{font-size:10px}
+table{border:0px; border-collapse:collapse;	}
+
+a{color:#b200ff; text-decoration:none} 
+a:hover{
+	text-decoration:underline;
+	color:#FF0;
+    font-size:16px;
+}
+span a{color:#6D6C6C; text-decoration:underline}
+b{ color:#414141} 
+li{background:url(images/m1.gif)  center left no-repeat; margin:0px; padding-left:0px; list-style-type:none; float:left }
+li a{color:#FFF; display:block; width:106px; height:55px; text-align:center; line-height:55px; font-size:11pt} 
+ul{margin:0; padding:0; list-style:none; line-height:16px}
+
+.content b{color:#FFFFFF; font-weight:normal} 
+.content .block a{color:#FFFFFF; text-decoration:underline; font-size:12px;}
+.content .block a:hover{text-decoration:none} 
+.header{color:#2C1F1E; font-size:10px; line-height:13px}
+ 
+.footer td{color:#646464; font-size:11px; background:url(images/bottom.gif) top} 
+.footer a {color:#646464; font-size:11px; text-decoration:none} 
+.footer a:hover{text-decoration:underline} 
+.footer span {color:#646464; font-size:9px; } 
+.footer span a {color:#6D8C1C; font-size:11px; text-decoration:underline} 
+.footer span a:hover{text-decoration:none}
+
+.more{background:url(images/1_z1.gif)  center left no-repeat; padding-left:18px; vertical-align:middle; padding-bottom:3px}
+
+#maincontent{
+	background-color:#FFC ;
+
+
+  height:370px;
+	 
+	
+}
+
+textarea{
+   background:#ffffff;
+   border:1px solid #B4B0AE;
+   padding-left:5px;
+   width:189px; height:112px;
+   overflow:auto}
+.watermark {
+    color: #d8cccc;
+    font-family:微軟正黑體, 新細明體,Tahoma, Arial Unicode MS;
+    font-size: 9pt;
+}
